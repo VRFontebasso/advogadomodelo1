@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Pessoal e Empresarial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f7ff;
+            background-size: cover;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background-image: url('fa-a-um-tribunal--sem-as-pessoas--com-a-imagem-de-.png'); /* Substitua pelo caminho correto da imagem */
+            background-size: cover; /* Faz com que a imagem cubra toda a área do cabeçalho */
+            background-repeat: no-repeat; /* Evita que a imagem se repita */
+            background-position: center; /* Centraliza a imagem no cabeçalho */
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        .header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        .header img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section img {
+            max-width: 100%;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .image-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .image-row img {
+            width: 32%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .espaco {
+            position: relative;
+            left: 5%;
+            width: 45%;
+        }
+        .texto_img {
+            position: relative;
+            top: -500px;
+            left: 52%;
+        }
+        .projeto1 {
+            width: 30%;
+            position: relative;
+            left: 8%;
+        }
+        .formulario {
+            position: absolute;
+            top: 180%;
+        }
+        .carousel {
+            position: relative;
+            left: -6%;
+            width: 80%; /* Ocupa 100% da largura da div */
+            height: 500px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .carousel-images {
+            display: flex;
+            width: 500%;
+            transition: transform 1s ease-in-out;
+        }
+        .carousel-images img {
+            width: 20%;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="advogado-rosto-sorrindo.png" alt="Sua Imagem Pessoal">
+            <h1>Seu Nome Aqui</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Sobre Mim</h2>
+            <p>Coloque aqui uma breve descrição sobre você. Fale sobre suas habilidades, experiências e interesses.</p>
+        </section>
+
+        <section class="section">
+            <div class="image-row">
+                <img src="imagens-relacionadas-a-direito-e-advocacia-.png" alt="Imagem 1">
+                <img src="imagens-relacionadas-a-direito-e-advocacia- (1).png" alt="Imagem 2">
+                <img src="imagens-relacionadas-a-direito-e-advocacia- (2).png" alt="Imagem 3">
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="fim">
+                <h2 style="text-align: center;">Sua Empresa</h2>
+                <div class="espaco">
+                    <img src="espa-o-fisico-de-uma-empresa-de-advocacia-.png" alt="Imagem da Empresa">
+                </div>
+                <div class="texto_img">
+                    <p>Descreva aqui a sua empresa. Fale sobre os serviços ou produtos <br/> que oferece, a missão, visão e valores.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque <br> modi laudantium ut commodi, dolorum molestias laborum? <br> Aspernatur cupiditate, soluta cum, optio nemo <br> quisquam ullam, illum saepe asperiores excepturi deserunt. Nam?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque <br> modi laudantium ut commodi, dolorum molestias laborum? <br> Aspernatur cupiditate, soluta cum, optio nemo <br> quisquam ullam, illum saepe asperiores excepturi deserunt. Nam?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque <br> modi laudantium ut commodi, dolorum molestias laborum? <br> Aspernatur cupiditate, soluta cum, optio nemo <br> quisquam ullam, illum saepe asperiores excepturi deserunt. Nam?</p>
+                    <br>
+
+                    <section class="section">
+                        <h2>Projetos Recentes</h2>
+                        <img src="documenta--o--de-advocacia-.png" class="projeto1"  alt="Projeto 1">
+                        <p>Descrição do Projeto 1. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, <br> hic excepturi quia, reiciendis ad numquam iure, explicabo repellat <br> veniam eius sequi illo ipsum soluta voluptatibus. <br> Veniam corporis repellendus dolores tempore!</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <div class="formulario">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdU5P75r21SCv08oy_zszVokrAfnXd8Irkk7ZMAadCpI5bGOw/viewform?embedded=true" width="600" height="650" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+            <br><br>
+            <div class="avaliacao">
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="advocacia--justi-a--honra- (1).png" alt="Imagem 1" width="500px" height="500px">
+                        <img src="advocacia--justi-a--honra-.png" alt="Imagem 2" width="500px" height="500px">
+                        <img src="advocacia--justi-a--honra-dark.png" alt="Imagem 3" width="500px" height="500px">
+                        <img src="advocacia--justi-a--honra-tribunal.png" alt="Imagem 4" width="500px" height="500px">
+                        <img src="advocacia--justi-a--honra-tribunal (1).png" alt="Imagem 5" width="500px" height="500px">
+                    </div>
+                    
+                </div>
+                <script>
+                    const carousel = document.querySelector('.carousel-images');
+                    const totalImages = document.querySelectorAll('.carousel-images img').length;
+                    const imageWidth = 100 / totalImages; // percentage width for each image
+
+                    let currentIndex = 0;
+
+                    function moveToNextImage() {
+                        currentIndex = (currentIndex + 1) % totalImages;
+                        const offset = -currentIndex * imageWidth;
+                        carousel.style.transform = `translateX(${offset}%)`;
+                    }
+
+                    setInterval(moveToNextImage, 3000); // Muda de imagem a cada 3 segundos
+                </script>
+            </div>
+            
+        </div>
+        
+    </div>
+    <br><br><br>
+
+    <footer class="footer">
+        <p>Seu Nome &copy; 2024</p>
+    </footer>
+</body>
+</html>
